@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var toggle = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+    
+        VStack{
+            Text("hello")
+            Image("brain")
         }
-        .padding()
-    }
+        }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F19D2062BF4546100ED98AD /* brainiak_images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F19D2052BF4546100ED98AD /* brainiak_images.xcassets */; };
+		2F19D20A2C04153000ED98AD /* Preview Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F19D2092C04153000ED98AD /* Preview Content.swift */; };
 		2FDB74AF2BED2E2900941236 /* BrainiakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB74AE2BED2E2900941236 /* BrainiakApp.swift */; };
 		2FDB74B12BED2E2900941236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB74B02BED2E2900941236 /* ContentView.swift */; };
 		2FDB74B32BED2E2B00941236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB74B22BED2E2B00941236 /* Assets.xcassets */; };
-		2FDB74B62BED2E2B00941236 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB74B52BED2E2B00941236 /* Preview Assets.xcassets */; };
 		2FDB74C02BED2E2C00941236 /* BrainiakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB74BF2BED2E2C00941236 /* BrainiakTests.swift */; };
 		2FDB74CA2BED2E2C00941236 /* BrainiakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB74C92BED2E2C00941236 /* BrainiakUITests.swift */; };
 		2FDB74CC2BED2E2C00941236 /* BrainiakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB74CB2BED2E2C00941236 /* BrainiakUITestsLaunchTests.swift */; };
@@ -35,11 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F19D2052BF4546100ED98AD /* brainiak_images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = brainiak_images.xcassets; sourceTree = "<group>"; };
+		2F19D2092C04153000ED98AD /* Preview Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview Content.swift"; sourceTree = "<group>"; };
 		2FDB74AB2BED2E2900941236 /* Brainiak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainiak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB74AE2BED2E2900941236 /* BrainiakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainiakApp.swift; sourceTree = "<group>"; };
 		2FDB74B02BED2E2900941236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FDB74B22BED2E2B00941236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2FDB74B52BED2E2B00941236 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FDB74BB2BED2E2C00941236 /* BrainiakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainiakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB74BF2BED2E2C00941236 /* BrainiakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainiakTests.swift; sourceTree = "<group>"; };
 		2FDB74C52BED2E2C00941236 /* BrainiakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainiakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,17 +102,10 @@
 				2FDB74AE2BED2E2900941236 /* BrainiakApp.swift */,
 				2FDB74B02BED2E2900941236 /* ContentView.swift */,
 				2FDB74B22BED2E2B00941236 /* Assets.xcassets */,
-				2FDB74B42BED2E2B00941236 /* Preview Content */,
+				2F19D2052BF4546100ED98AD /* brainiak_images.xcassets */,
+				2F19D2092C04153000ED98AD /* Preview Content.swift */,
 			);
 			path = Brainiak;
-			sourceTree = "<group>";
-		};
-		2FDB74B42BED2E2B00941236 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2FDB74B52BED2E2B00941236 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		2FDB74BE2BED2E2C00941236 /* BrainiakTests */ = {
@@ -234,7 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FDB74B62BED2E2B00941236 /* Preview Assets.xcassets in Resources */,
+				2F19D2062BF4546100ED98AD /* brainiak_images.xcassets in Resources */,
 				2FDB74B32BED2E2B00941236 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F19D20A2C04153000ED98AD /* Preview Content.swift in Sources */,
 				2FDB74B12BED2E2900941236 /* ContentView.swift in Sources */,
 				2FDB74AF2BED2E2900941236 /* BrainiakApp.swift in Sources */,
 			);
@@ -420,7 +416,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Brainiak/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,7 +444,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Brainiak/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
